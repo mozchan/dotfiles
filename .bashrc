@@ -10,7 +10,7 @@ GIT_PS1_SHOWUPSTREAM=auto
 # プロンプトのカスタマイズ
 promps() {
   # ASCIIエスケープシーケンス カラー設定
-  local Black='\[\e[0;30m\]'
+  local BLACK='\[\e[0;30m\]'
   local RED='\[\e[0;31m\]'
   local GREEN='\[\e[0;32m\]'
   local YELLOW='\[\e[0;33m\]'
@@ -20,7 +20,8 @@ promps() {
   local WHITE='\[\e[0;37m\]'
 
   local BASE='U ´\`・) { ' # SNOOPY仕様
-  PS1="${BASE}${YELLOW}\W${RED}$(__git_ps1 ' [%s]')${WHITE} \$ "
+  local GIT_STATE='$(__git_ps1 " [%s]")'
+  PS1="${BASE}${YELLOW}\W${RED}${GIT_STATE}${WHITE} \$ "
 }
 promps
 
