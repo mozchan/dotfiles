@@ -9,6 +9,7 @@ GIT_PS1_SHOWUPSTREAM=auto
 
 # プロンプトのカスタマイズ
 promps() {
+  local RESET='\e[0m'
   # ASCIIエスケープシーケンス カラー設定
   local BLACK='\[\e[0;30m\]'
   local RED='\[\e[0;31m\]'
@@ -21,7 +22,7 @@ promps() {
 
   local BASE='U ´\`・) { ' # SNOOPY仕様
   local GIT_STATE='$(__git_ps1 " [%s]")'
-  PS1="${BASE}${YELLOW}\W${RED}${GIT_STATE}${WHITE} \$ "
+  PS1="${BASE}${YELLOW}\W${RED}${GIT_STATE}${RESET} \$ "
 }
 promps
 
@@ -30,3 +31,8 @@ HISTIGNORE='pwd:ls:ls *:ln:ln *:cd:cd *:history'
 
 # Bash history の重複コマンドを削除
 HISTCONTROL=erasedups
+
+# ディレクトリの新規作成 & 移動
+mkcd() {
+  mkdir $1 && cd $1 && pwd
+}
