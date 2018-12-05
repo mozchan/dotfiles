@@ -1,13 +1,10 @@
 [core]
 	excludesfile = ~/.gitignore_global
-
 [user]
 	name = mozchan
 	email = 29094089+mozchan@users.noreply.github.com
-
 [color]
 	ui = auto
-
 [alias]
 	st = status
 	ci = commit
@@ -18,6 +15,7 @@
 	rl = reflog
 	lg = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
 	ignore = !([ ! -e .gitignore ] && touch .gitignore) | echo $1 >> .gitignore
-
 [includeIf "gitdir:~/_htdocs/Bitbucket/"]
 	path = .gitconfig-Bitbucket
+[commit]
+	template = ~/.gitmessage
