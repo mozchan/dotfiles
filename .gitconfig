@@ -27,5 +27,5 @@
 [includeIf "gitdir:~/_htdocs/Bitbucket/"]
 	path = .gitconfig-Bitbucket
 
-[commit]
-	template = ~/.gitmessage
+# [commit]
+# 	template = ~/.gitmessage
