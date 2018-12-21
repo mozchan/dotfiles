@@ -1,0 +1,281 @@
+[
+  {
+    "emoji": "🎉",
+    "entity": "&#127881;",
+    "code": ":tada:",
+    "description": "Initial commit.",
+    "name": "tada"
+  },
+  {
+    "emoji": "✨",
+    "entity": "&#x2728;",
+    "code": ":sparkles:",
+    "description": "新機能 Introducing new features.",
+    "name": "sparkles"
+  },
+  {
+    "emoji": "💄",
+    "entity": "&#ff99cc;",
+    "code": ":lipstick:",
+    "description": "デザイン変更 Updating the UI and style files.",
+    "name": "lipstick"
+  },
+  {
+    "emoji": "💬",
+    "entity": "&#128172;",
+    "code": ":speech_balloon:",
+    "description": "テキスト変更 Updating text and literals.",
+    "name": "speech-balloon"
+  },
+  {
+    "emoji": "📸",
+    "entity": "&#128248;",
+    "code": ":camera_flash:",
+    "description": "画像の追加 Adding or updating snapshots",
+    "name": "camera-flash"
+  },
+  {
+    "emoji": "📈",
+    "code": ":chart_with_upwards_trend:",
+    "description": "解析タグの追加 Adding analytics or tracking code.",
+    "name": "chart-with-upwards-trend"
+  },
+  {
+    "emoji": "🐛",
+    "entity": "&#x1f41b;",
+    "code": ":bug:",
+    "description": "バグ改修　Fixing a bug.",
+    "name": "bug"
+  },
+  {
+    "emoji": "🚨",
+    "entity": "&#x1f6a8;",
+    "code": ":rotating_light:",
+    "description": "Linterの警告を削除　Removing linter warnings.",
+    "name": "rotating-light"
+  },
+  {
+    "emoji": "✅",
+    "entity": "&#x2705;",
+    "code": ":white_check_mark:",
+    "description": "テストの追加 Adding tests.",
+    "name": "white-check-mark"
+  },
+  {
+    "emoji": "♻️",
+    "entity": "&#x2672;",
+    "code": ":recycle:",
+    "description": "リファクタリング Refactoring code.",
+    "name": "recycle"
+  },
+  {
+    "emoji": "🔥",
+    "entity": "&#x1f525;",
+    "code": ":fire:",
+    "description": "コードやファイルの削除 Removing code or files.",
+    "name": "fire"
+  },
+  {
+    "emoji": "👌",
+    "entity": "&#x1f44c;",
+    "code": ":ok_hand:",
+    "description": "コードレビューによる更新 Updating code due to code review changes.",
+    "name": "ok-hand"
+  },
+  {
+    "emoji": "⚡️",
+    "entity": "&#x26a1;",
+    "code": ":zap:",
+    "description": "パフォーマンス改善 Improving performance.",
+    "name": "zap"
+  },
+  {
+    "emoji": "♿️",
+    "entity": "&#9855;",
+    "code": ":wheelchair:",
+    "description": "アクセシビリティの向上 Improving accessibility.",
+    "name": "wheelchair"
+  },
+  {
+    "emoji": "🔒",
+    "entity": "&#x1f512;",
+    "code": ":lock:",
+    "description": "セキュリティ問題の修正 Fixing security issues.",
+    "name": "lock"
+  },
+  {
+    "emoji": "🔍",
+    "entity": "&#128269;",
+    "code": ":mag:",
+    "description": "SEOの改善 Improving SEO",
+    "name": "mag"
+  },
+  {
+    "emoji": "✏️",
+    "entity": "&#59161;",
+    "code": ":pencil2:",
+    "description": "typoの修正 Fixing typos.",
+    "name": "pencil"
+  },
+  {
+    "emoji": "💩",
+    "entity": "&#58613;",
+    "code": ":hankey:",
+    "description": "改善が必要なコード Writing bad code that needs to be improved.",
+    "name": "hankey"
+  },
+  {
+    "emoji": "🚚",
+    "entity": "&#1F69A;",
+    "code": ":truck:",
+    "description": "ファイルの移動・ファイル名の変更 Moving or renaming files.",
+    "name": "truck"
+  },
+  {
+    "emoji": "🎨",
+    "entity": "&#x1f3a8;",
+    "code": ":art:",
+    "description": "構造改善・コード整形 Improving structure / format of the code.",
+    "name": "art"
+  },
+  {
+    "emoji": "💚",
+    "entity": "&#x1f49a;",
+    "code": ":green_heart:",
+    "description": "CIビルドの修正 Fixing CI Build.",
+    "name": "green-heart"
+  },
+  {
+    "emoji": "👷",
+    "entity": "&#x1f477;",
+    "code": ":construction_worker:",
+    "description": "CIビルドの追加 Adding CI build system.",
+    "name": "construction-worker"
+  },
+  {
+    "emoji": "⬇️",
+    "entity": "⬇️",
+    "code": ":arrow_down:",
+    "description": "モジュールのダウングレード Downgrading dependencies.",
+    "name": "arrow-down"
+  },
+  {
+    "emoji": "⬆️",
+    "entity": "⬆️",
+    "code": ":arrow_up:",
+    "description": "モジュールのアップグレード　Upgrading dependencies.",
+    "name": "arrow-up"
+  },
+  {
+    "emoji": "➕",
+    "entity": "&#10133;",
+    "code": ":heavy_plus_sign:",
+    "description": "モジュールの追加 Adding a dependency.",
+    "name": "heavy-plus-sign"
+  },
+  {
+    "emoji": "➖",
+    "entity": "&#10134;",
+    "code": ":heavy_minus_sign:",
+    "description": "モジュールの削除 Removing a dependency.",
+    "name": "heavy-minus-sign"
+  },
+  {
+    "emoji": "👽",
+    "entity": "&#1F47D;",
+    "code": ":alien:",
+    "description": "外部APIの変更によるコードの更新 Updating code due to external API changes.",
+    "name": "alien"
+  },
+  {
+    "emoji": "🔧",
+    "entity": "&#x1f527;",
+    "code": ":wrench:",
+    "description": "設定ファイルの変更 Changing configuration files.",
+    "name": "wrench"
+  },
+  {
+    "emoji": "🙈",
+    "entity": "&#8bdfe7;",
+    "code": ":see_no_evil:",
+    "description": ".gitignoreの追加・更新 Adding or updating a .gitignore file",
+    "name": "see-no-evil"
+  },
+  {
+    "emoji": "📄",
+    "entity": "&#1F4C4;",
+    "code": ":page_facing_up:",
+    "description": "ライセンスの追加 Adding or updating license.",
+    "name": "page-facing-up"
+  },
+  {
+    "emoji": "📝",
+    "entity": "&#x1f4dd;",
+    "code": ":memo:",
+    "description": "ドキュメント作成 Writing docs.",
+    "name": "memo"
+  },
+  {
+    "emoji": "🔊",
+    "entity": "&#128266;",
+    "code": ":loud_sound:",
+    "description": "ログの追加 Adding logs.",
+    "name": "loud-sound"
+  },
+  {
+    "emoji": "🔇",
+    "entity": "&#128263;",
+    "code": ":mute:",
+    "description": "ログの削除 Removing logs.",
+    "name": "mute"
+  },
+  {
+    "emoji": "⚗",
+    "entity": "&#128248;",
+    "code": ":alembic:",
+    "description": "新しい物を試す Experimenting new things",
+    "name": "alembic"
+  },
+  {
+    "emoji": "🥚",
+    "entity": "&#129370;",
+    "code": ":egg:",
+    "description": "隠しメッセージを追加 Adding an easter egg.",
+    "name": "egg"
+  },
+  {
+    "emoji": "⏪",
+    "entity": "&#9194;",
+    "code": ":rewind:",
+    "description": "変更を元に戻す Reverting changes.",
+    "name": "rewind"
+  },
+  {
+    "emoji": "🔀",
+    "entity": "&#128256;",
+    "code": ":twisted_rightwards_arrows:",
+    "description": "ブランチをマージする Merging branches.",
+    "name": "twisted-rightwards-arrows"
+  },
+  {
+    "emoji": "🚧",
+    "entity": "&#x1f6a7;",
+    "code": ":construction:",
+    "description": "作業中　Work in progress.",
+    "name": "construction"
+  },
+  {
+    "emoji": "🚀",
+    "entity": "&#x1f680;",
+    "code": ":rocket:",
+    "description": "納品・公開 Deploying stuff.",
+    "name": "rocket"
+  },
+  {
+    "emoji": "🔖",
+    "entity": "&#x1f516;",
+    "code": ":bookmark:",
+    "description": "タグ付け Releasing / Version tags.",
+    "name": "bookmark"
+  }
+]
