@@ -62,7 +62,7 @@
     "name": "white-check-mark"
   },
   {
-    "emoji": "♻️",
+    "emoji": "♻️ ",
     "entity": "&#x2672;",
     "code": ":recycle:",
     "description": "リファクタリング Refactoring code.",
@@ -111,7 +111,7 @@
     "name": "mag"
   },
   {
-    "emoji": "✏️",
+    "emoji": "✏️ ",
     "entity": "&#59161;",
     "code": ":pencil2:",
     "description": "typoの修正 Fixing typos.",
@@ -153,14 +153,14 @@
     "name": "construction-worker"
   },
   {
-    "emoji": "⬇️",
+    "emoji": "⬇️ ",
     "entity": "⬇️",
     "code": ":arrow_down:",
     "description": "モジュールのダウングレード Downgrading dependencies.",
     "name": "arrow-down"
   },
   {
-    "emoji": "⬆️",
+    "emoji": "⬆️ ",
     "entity": "⬆️",
     "code": ":arrow_up:",
     "description": "モジュールのアップグレード　Upgrading dependencies.",
@@ -230,7 +230,7 @@
     "name": "mute"
   },
   {
-    "emoji": "⚗",
+    "emoji": "⚗ ",
     "entity": "&#128248;",
     "code": ":alembic:",
     "description": "新しい物を試す Experimenting new things",
