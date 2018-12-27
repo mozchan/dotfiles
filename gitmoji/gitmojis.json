@@ -31,7 +31,7 @@
     "emoji": "📸",
     "entity": "&#128248;",
     "code": ":camera_flash:",
-    "description": "画像の追加 Adding or updating snapshots",
+    "description": "画像の追加・変更 Adding or updating snapshots",
     "name": "camera-flash"
   },
   {
@@ -74,6 +74,20 @@
     "code": ":fire:",
     "description": "コードやファイルの削除 Removing code or files.",
     "name": "fire"
+  },
+  {
+    "emoji": "🚚",
+    "entity": "&#1F69A;",
+    "code": ":truck:",
+    "description": "ファイルの移動・ファイル名の変更 Moving or renaming files.",
+    "name": "truck"
+  },
+  {
+    "emoji": "🎨",
+    "entity": "&#x1f3a8;",
+    "code": ":art:",
+    "description": "構造改善・コード整形 Improving structure / format of the code.",
+    "name": "art"
   },
   {
     "emoji": "👌",
@@ -123,20 +137,6 @@
     "code": ":hankey:",
     "description": "改善が必要なコード Writing bad code that needs to be improved.",
     "name": "hankey"
-  },
-  {
-    "emoji": "🚚",
-    "entity": "&#1F69A;",
-    "code": ":truck:",
-    "description": "ファイルの移動・ファイル名の変更 Moving or renaming files.",
-    "name": "truck"
-  },
-  {
-    "emoji": "🎨",
-    "entity": "&#x1f3a8;",
-    "code": ":art:",
-    "description": "構造改善・コード整形 Improving structure / format of the code.",
-    "name": "art"
   },
   {
     "emoji": "💚",
