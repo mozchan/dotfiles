@@ -14,8 +14,8 @@ promps() {
   local GIT_STATE='$(__git_ps1 " [%s]")'
 
   # ASCIIエスケープシーケンス カラー設定
-  local RED='\[\e[0;31m\]'
-  local YELLOW='\[\e[0;33m\]'
+  local RED='\e[31m'
+  local YELLOW='\e[33m'
 
   PS1="${BASE}${YELLOW}\W${RED}${GIT_STATE}${RESET} \$ "
 }
